@@ -60,7 +60,7 @@ function drawPlayerOne(){
 }
 
 function drawPlayerTwo(){
-  ctx.fillStyle="#0000FF"
+  ctx.fillStyle="#0000FFzzz"
   ctx.fillRect(canvas.width*(7/8),canvas.height/2 - canvas.height*(1/16),canvas.width/60,canvas.height*(1/8));
 }
 
