@@ -53,7 +53,20 @@ function drawBall(){
   ctx.strokeStyle="#FFFFFF"
   ctx.stroke();
 }
+
+function drawPlayerOne(){
+  ctx.fillStyle="#FF0000"
+  ctx.fillRect(canvas.width/8,canvas.height/2 - canvas.height*(1/16),canvas.width/60,canvas.height*(1/8));
+}
+
+function drawPlayerTwo(){
+  ctx.fillStyle="#0000FF"
+  ctx.fillRect(canvas.width*(7/8),canvas.height/2 - canvas.height*(1/16),canvas.width/60,canvas.height*(1/8));
+}
+
 drawField();
 drawGoalOne();
 drawGoalTwo();
 drawBall();
+drawPlayerOne();
+drawPlayerTwo();
