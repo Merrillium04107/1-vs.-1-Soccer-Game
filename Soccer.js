@@ -45,12 +45,13 @@ function drawGoalTwo(){
   }
 
 function drawBall(){
-  ctx.strokeStyle="#FFFFFF"
-  ctx.lineWidth = 5;
   ctx.beginPath();
   ctx.arc(canvas.width/2 + 2.5,canvas.height/2 + 5,canvas.height/5,0,2*Math.PI);
+  ctx.fillStyle = "#FFFFFF"
+  ctx.fill();
+  ctx.lineWidth = 5;
+  ctx.strokeStyle="#FFFFFF"
   ctx.stroke();
-  ctx.fillCircle="000000"
 }
 drawField();
 drawGoalOne();
