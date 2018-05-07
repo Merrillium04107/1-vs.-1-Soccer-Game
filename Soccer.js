@@ -46,7 +46,7 @@ function drawGoalTwo(){
 
 function drawBall(){
   ctx.beginPath();
-  ctx.arc(canvas.width/2 + 2.5,canvas.height/2 + 5,canvas.height/5,0,2*Math.PI);
+  ctx.arc(canvas.width/2 + 2.5,canvas.height/2 + 5,canvas.height/20,0,2*Math.PI);
   ctx.fillStyle = "#FFFFFF"
   ctx.fill();
   ctx.lineWidth = 5;
